@@ -42,6 +42,13 @@
          */
 
          // CODE HERE
+        let input = document.getElementById('input');
+        let text = document.getElementById('text');
+         let submit = document.getElementById('submit');
+         submit.onclick = function(){
+            text.textContent = `Hello, ${input.value}`
+         }
+        
          
 
          /* OPTIONAL PRACTICE: If you want more practice later, try taking multiple inputs from a user. For example,
